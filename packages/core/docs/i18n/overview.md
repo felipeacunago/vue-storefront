@@ -21,7 +21,7 @@ Additionally to tell the modules to use that section we always should set `useNu
 In case when you set this flag to false, you are always able to provide your own i18n configuration just for this module.
 
 ```
-['@vue-storefront/commercetools/nuxt', {
+['@vue-storefront/{your_platform}/nuxt', {
   api: {
     uri: 'https://yourshop.com/some-key/graphql',
   },
