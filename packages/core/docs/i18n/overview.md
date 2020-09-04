@@ -8,7 +8,7 @@ Other modules such as integration ones, will consume this section as the single 
 Additionally to tell the modules to use that section we always should set `useNuxtI18nModule` to true under the `i18n` key.
 
 ```
-['@vue-storefront/commercetools/nuxt', {
+['@vue-storefront/{your_platform}/nuxt', {
   api: {
     uri: 'https://yourshop.com/some-key/graphql',
   },
